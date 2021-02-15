@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void test2() {
-        
+        int pi = 2;
     }
 
     private void setupViewComponent(){
