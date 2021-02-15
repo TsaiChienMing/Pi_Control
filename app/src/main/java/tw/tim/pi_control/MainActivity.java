@@ -30,8 +30,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         setupViewComponent();
-
+        test2();
         new Thread(new ClientThread()).start();
+    }
+
+    private void test2() {
+        
     }
 
     private void setupViewComponent(){
